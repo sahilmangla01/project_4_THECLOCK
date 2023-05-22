@@ -1,0 +1,182 @@
+body{
+    background-color: #3D087B;
+
+}
+.display{
+    display: flex;
+}
+.bb{
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 30px 120px;
+}
+section{
+    flex-direction: column;
+    margin-right: 20px;
+}
+.setAction{
+    background-color: white;
+    width: 566px;
+    height: 363px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actionTime{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 45px;
+    align-content: space-between;
+}
+
+label{
+    margin-top: 10px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+    
+}
+select{
+    width: 281px;
+    height: 45px;
+    border: 1px solid #EDEDED;
+    color: #3D087BDE;
+    padding: 10px;
+}
+
+
+.Greeting{
+    width: 566px;
+    height:  77px;
+    border-radius: 10px;
+    background-color: rgb(222, 203, 245, 0.23);
+    margin-top: 10px;
+    padding: 20px;
+
+
+}
+.greetText{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    font-family: 'Baumans', cursive;
+}
+.left_footer{
+    margin-top: 20px;
+}
+button{
+    width: 289px;
+    height: 50px;
+    background-image: linear-gradient(to left ,  #CB52F8 ,#FC5EFF,#6E54EC);
+    font-size: 25px;
+    color: #EDEDED;
+    border:#3D087B 1px solid;
+    border-radius: 5px;
+    font-family: 'Manrope', sans-serif;
+}
+.footerNote{
+    flex-direction: column;
+    background-color: rgb(222, 203, 245, 0.23);
+    width: 253px;
+    height: 100px;
+    color: #F25CFE;
+    font-weight: bold;
+    border-radius: 10px;
+    line-height: 20px;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
+    margin-left: 22px;
+}
+
+
+/* Right  */
+.size{
+    width: 536px;
+    height: 130px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+.rightTime{
+    margin-top: 10px;
+  
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    
+}
+h3{
+    margin: 30px 0;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+.box{
+    width: 80px;
+    height: 90px;
+    background-color: #F6E2FF;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    padding-top: 10px; 
+    color: #8A11BF;
+    
+
+}
+.colon{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color: #8A11BF;
+}
+.ampm{
+    background-image: url(Images/AM_svg.svg);
+    width: 82px;
+    height: 90px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;    
+    color: white;
+    margin-left: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.secondDiv{
+    width: 416px;
+    height: 130px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    left: 766px;
+    top: 55px;
+    filter: opacity(71%);
+}
+.thirdDiv{
+    width: 379px;
+    height: 130px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    left: 785px;
+    top: 67px;
+    filter: opacity(22%);
+}
+.rightText{
+    position: relative;
+    top: 180px;
+    font-size: 30px;
+    background-color: white;
+    padding: 40px 30px;
+    font-weight: bolder;
+    color:#8E53F0;
+    font-family: 'Baumans', cursive;
+}
+.rightImage{
+    position: relative;
+    top: 200px;
+}
