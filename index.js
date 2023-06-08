@@ -25,7 +25,7 @@ let hr = hh;
         hr = hr-12
         
     }
-    hr= (hr<12) ? "0"+hr: hr
+    hr = (hr<12) ? "0"+hr :hr
     mm= (mm<12) ? "0"+mm : mm
     ss= (ss<12) ? "0"+ss: ss
 
