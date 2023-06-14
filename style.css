@@ -3,6 +3,12 @@ body{
    
 
 }
+
+.main{
+    position: relative;
+    left: 30px;
+}
+
 .display{
     display: flex;
 }
@@ -14,6 +20,8 @@ body{
 }
 .color{
     color: #5F0089;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .main{
@@ -164,8 +172,8 @@ h3{
     background-color: #EDEDED;
     border-radius: 10px;
     position: absolute;
-    left: 766px;
-    top: 55px;
+    left: 640px;
+    top: 25px;
     filter: opacity(71%);
 }
 .thirdDiv{
@@ -174,8 +182,8 @@ h3{
     background-color: #EDEDED;
     border-radius: 10px;
     position: absolute;
-    left: 785px;
-    top: 67px;
+    left: 660px;
+    top: 40px;
     filter: opacity(22%);
 }
 .rightText{
@@ -191,6 +199,9 @@ h3{
 .rightImage{
     position: relative;
     top: 200px;
+}
+.timeTxt{
+    font-size: 30px;
 }
 
 
