@@ -219,22 +219,22 @@ h3{
         display: inline-block;
     }
     .rightTime{
-        top: 130px;
+        top: 100px;
        
     }
     .secondDiv{
-        top: 155px;
+        top: 127px;
         left: 17px;
         width: 310px;
     }
     .thirdDiv{
-        top: 170px;
+        top: 140px;
         left: 37px;
         width: 270px;
     }
     .rightText{
         position: absolute;
-        top: 320px;
+        top: 295px;
         font-size: 25px;
         padding: 30px 20px;
         height: 100px;
@@ -242,7 +242,7 @@ h3{
     }
     .mobilecard{
         position: absolute;
-        top: 420px;
+        top: 400px;
         height: 300px;
         left: 0px;
         width: 300px;
@@ -253,7 +253,7 @@ h3{
     }
     .rightImage{
         position: absolute;
-        top: 760px;
+        top: 740px;
         
        
     }
@@ -270,7 +270,7 @@ h3{
     }
     .Greeting{
         position:absolute;
-        top: 1010px;
+        top: 960px;
         width: 340px;
         
     }
@@ -279,7 +279,7 @@ h3{
     }
     .left_footer{
         position: absolute;
-        top: 1090px;
+        top: 1050px;
         margin-bottom: 50px;
     }
    
