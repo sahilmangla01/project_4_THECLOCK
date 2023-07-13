@@ -205,21 +205,31 @@ h3{
 }
 
 
-@media only screen and (min-width : 350px) and (max-width : 600px){
+@media only screen and (min-width : 350px) and (max-width : 450px){
+  
+    body{
+        text-align: center;
+    }
+    .main{
+    left: -50px;
+    margin: 25px 13px;
+    
+   }
     .display{
-        display: block;
+        display: inline-block;
     }
     .rightTime{
         top: 130px;
+       
     }
     .secondDiv{
         top: 155px;
-        left: 45px;
+        left: 17px;
         width: 310px;
     }
     .thirdDiv{
         top: 170px;
-        left: 70px;
+        left: 37px;
         width: 270px;
     }
     .rightText{
@@ -234,11 +244,12 @@ h3{
         position: absolute;
         top: 420px;
         height: 300px;
-        
+        left: 0px;
+        width: 300px;
         
     }
     .setAction{
-        width: 390px;
+        width: 340px;
     }
     .rightImage{
         position: absolute;
@@ -246,14 +257,21 @@ h3{
         
        
     }
+    .setAlarm{
+        width: 270px;
+    }
+    .color{
+        margin-top: 10px;
+        font-size: 15px;
+    }
     
     .imge{
-        width: 390px;
+        width: 340px;
     }
     .Greeting{
         position:absolute;
         top: 1010px;
-        width: 390px;
+        width: 340px;
         
     }
     .greetText{
@@ -261,30 +279,30 @@ h3{
     }
     .left_footer{
         position: absolute;
-        top: 1080px;
+        top: 1090px;
         margin-bottom: 50px;
     }
-    .main{
-        margin: 30px 15px;
-    }
+   
     .size{
-        width: 390px;
+        width: 150%;
     }
     .timeTxt{
         font-size: large;
+        margin-right: 10px;
     }
     .box{
         width: 15%;
         height: 90%;
-        font-size: large;
+        font-size: 20px;
         font-weight: bolder;
     }
     button{
         width: 210px;
     }
     .footerNote{
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 4px;
+        margin-bottom: 10px;
         width: 80%;
         height: 110px;
     }
